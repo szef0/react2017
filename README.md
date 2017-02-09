@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). The configuration was edited to support the use of [Sass](http://sass-lang.com/) with the `.scss` syntax. [React Router](https://github.com/ReactTraining/react-router), [React Bootstrap](https://react-bootstrap.github.io/) and [Redux](http://redux.js.org/) were also added ass dependencies.
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). The configuration was edited to support the use of [Sass](http://sass-lang.com/) with the `.scss` syntax. [React Router](https://github.com/ReactTraining/react-router), [React Bootstrap](https://react-bootstrap.github.io/) and [Redux](http://redux.js.org/) were also added as dependencies.
 
 To get started with the technogolies included in this project please view the links below.<br>
 
