@@ -4,7 +4,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h1>Monro Tire</h1>
+        <h1>React App</h1>
       </header>
     )
   }

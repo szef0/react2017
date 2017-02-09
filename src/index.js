@@ -5,6 +5,8 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 import App from './app/App'
 import HelloWorld from './helloworld/HelloWorld'
 
+import './index.scss'
+
 const routes = (
   <Router history={hashHistory}>
     <Route path='/' component={App}>
