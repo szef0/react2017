@@ -1,4 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). The configuration was edited to support the use of [Sass](http://sass-lang.com/) with the `.scss` syntax. [React Router](https://github.com/ReactTraining/react-router) and [Redux](http://redux.js.org/) were also added ass dependencies.
+
+To get started with the technogolies included in this project please view the links below.<br>
+
+**JavaScript ES2015/ES6**
+- [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
+- [Understanding ES6](https://leanpub.com/understandinges6/read) (Online Book)
+
+**React**
+- [React Fundamentals](https://reacttraining.com/online/react-fundamentals) (Video Course)
+- [React Documentation](https://facebook.github.io/react/docs/hello-world.html)
+
+**React Router**
+- [React Router Tutorial](https://github.com/reactjs/react-router-tutorial)
+
+**Redux**
+- [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) (Video Course)
+
+**Sass**
+- [Sass Guide](http://sass-lang.com/guide)
+
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
