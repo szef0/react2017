@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Router, Route, hashHistory } from 'react-router'
+import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 
 import App from './app/App'
-import Home from './Home'
+import HelloWorld from './helloworld/HelloWorld'
 
 const routes = (
   <Router history={hashHistory}>
     <Route path='/' component={App}>
-      <Route path='/home' component={Home} />
+      <IndexRoute path='/hello' component={HelloWorld} />
     </Route>
   </Router>
 )
