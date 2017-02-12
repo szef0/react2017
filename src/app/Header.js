@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Header extends Component {
   render() {
     return (
-      <header>
+      <header className='container'>
         <h1>React App</h1>
       </header>
     )
@@ -11,3 +11,4 @@ class Header extends Component {
 }
 
 export default Header
+

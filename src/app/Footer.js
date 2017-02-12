@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Footer extends Component {
   render() {
     return (
-      <footer>
+      <footer className='container'>
         &copy; 2017 fostertheweb
       </footer>
     )
@@ -11,3 +11,4 @@ class Footer extends Component {
 }
 
 export default Footer
+
