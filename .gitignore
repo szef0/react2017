@@ -392,3 +392,6 @@ yarn-error.log*
 # vim
 *.swp
 
+# compiled CSS
+src/**/*.css
+
