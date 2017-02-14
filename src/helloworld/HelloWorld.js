@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Jumbotron, Alert, Table } from 'react-bootstrap'
 
 import pkg from '../../package.json'
+import './HelloWorld.css'
 
 class HelloWorld extends Component {
   render() {
@@ -15,7 +16,7 @@ class HelloWorld extends Component {
       )
     })
     return (
-      <div>
+      <div className='hello-world'>
         <Jumbotron>
           <strong>Welcome!</strong> Have fun creating a new React application.
         </Jumbotron>
