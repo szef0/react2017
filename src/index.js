@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 
-import App from './app/App'
-import HelloWorld from './helloworld/HelloWorld'
+import App from './components/app/App'
+import HelloWorld from './components/hello-world/Hello-World'
 
 import './index.css'
 

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Jumbotron, Alert, Table } from 'react-bootstrap'
 
-import pkg from '../../package.json'
-import './HelloWorld.css'
+import pkg from '../../../package.json'
+import './hello-world.css'
 
 class HelloWorld extends Component {
   render() {
