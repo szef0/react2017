@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (
       <header className='container'>
-        <Navigation brand={this.props.brand} />
+        <Navigation />
       </header>
     )
   }
