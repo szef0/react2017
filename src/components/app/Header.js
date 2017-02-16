@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 
+import Navigation from './Navigation'
+
 class Header extends Component {
   render() {
     return (
       <header className='container'>
-        <h1>React App</h1>
+        <Navigation brand={this.props.brand} />
       </header>
     )
   }
