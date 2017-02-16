@@ -5,14 +5,12 @@ import Footer from './Footer'
 
 import './app.css'
 
-var host = window.location.hostname
-
 class App extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      brand: host
+      brand: 'Cool Company'
     }
   }
 
@@ -30,4 +28,3 @@ class App extends Component {
 }
 
 export default App
-
