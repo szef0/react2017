@@ -6,6 +6,7 @@ import App from './components/app/App'
 import HelloWorld from './components/hello-world/Hello-World'
 
 import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const routes = (
   <Router history={hashHistory}>
