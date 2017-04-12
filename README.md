@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). The configuration was edited to support the use of [Sass](http://sass-lang.com/) with the `.scss` syntax. [React Router](https://github.com/ReactTraining/react-router), [React Bootstrap](https://react-bootstrap.github.io/) and [Redux](http://redux.js.org/) were also added as dependencies.
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). The configuration was edited to support the use of [Sass](http://sass-lang.com/) with the `.scss` syntax. [React Router](https://github.com/ReactTraining/react-router) and [React Bootstrap](https://react-bootstrap.github.io/) were also added as dependencies.
 
 To get started with the technogolies included in this project please view the links below.<br>
 
@@ -15,9 +15,6 @@ To get started with the technogolies included in this project please view the li
 
 **React Bootstrap**
 - [Getting Started with React Bootstrap](https://react-bootstrap.github.io/getting-started.html)
-
-**Redux**
-- [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) (Video Course)
 
 **Sass**
 - [Sass Guide](http://sass-lang.com/guide)
