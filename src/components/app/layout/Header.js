@@ -5,7 +5,7 @@ import Navigation from './Navigation'
 class Header extends Component {
   render() {
     return (
-      <header className='container'>
+      <header>
         <Navigation />
       </header>
     )
