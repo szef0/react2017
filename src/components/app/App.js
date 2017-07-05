@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
 
-import Header from './Header'
-import Footer from './Footer'
-
-import './app.css'
+import Header from './layout/Header'
+import Footer from './layout/Footer'
+import Sidebar from './layout/Sidebar'
 
 class App extends Component {
   render() {
     return (
-      <div className='App'>
+      <div className='gampre-play-wrapper'>
         <Header />
-          <div className='container'>
-            {this.props.children}
+          <div className='main'>
+              <Sidebar />
+              {this.props.children}
           </div>
         <Footer />
       </div>

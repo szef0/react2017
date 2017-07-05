@@ -1,5 +1,136 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+$blueColor: #0076f6;
+$redColor: #ff2d56;
+$purpleColor: #1a1d30;
+$orangeColor: #f85d41;
+$purpleTextColor: #828da9;
+
+h1, h2, h3, h4 {
+    font-weight: 300;
+}
+
+.gampre-play-wrapper {
+    height: 100vh;
+    overflow: hidden !important;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    .top-bar {
+        width: 100%;
+        height: 70px;
+        background: $purpleColor;
+        position: relative;
+        .logo {
+            h1 {
+                text-indent: -9999px;
+                margin: 0;
+                width: 150px;
+                height: 40px;
+                background: url('https://gampre.pl/assets/img/logo.svg') no-repeat;
+                background-size: 100% 100%;
+                position: relative;
+                top: 17px;
+                left: 12px;
+            }
+        }
+        .user-info {
+            position: absolute;
+            right: 3%;
+            top: 50%;
+            transform: translateY(-50%);
+            padding-right: 50px;
+            color: $purpleTextColor;
+            .avatar {
+                display: inline-block;
+                img {
+                    max-width: 30px;
+                    border-radius: 50%;
+                }
+            }
+            .name {
+                display: inline-block;
+                margin-left: 15px;
+                color: #fff;
+                .premium {
+                    color: $purpleTextColor;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .main {
+        height: calc(100vh - 80px);
+        overflow: hidden;
+        clear: both;
+        .sidebar {
+            width: 15%;
+            max-width: 250px;
+            height: 100%;
+            float: left;
+            background: $purpleColor;
+            color: $purpleTextColor;
+            .btn {
+                width: 100%;
+                border-radius: 0;
+                color: #fff;
+                padding: 13px;
+                a {
+                    color: #fff;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+            h1 {
+                font-size: 10px;
+                margin-left: 15px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            ul {
+                padding: 0;
+                margin: 0;
+                li {
+                    padding: 10px 25px;
+                    color: $purpleTextColor;
+                    list-style-type: none;
+                    a {
+                        color: #828da9;
+                        &.active {
+                            color: #fff;
+                        }
+                        &:hover {
+                            text-decoration: none;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        .content {
+            width: 85%;
+            float: left;
+            background: #fff;
+            padding: 40px;
+            h1 {
+                margin: 0;
+                display: inline-block;
+            }
+            .btn {
+                color: #fff;
+                display: inline-block;
+                margin-left: 15px;
+                position: relative;
+                top: -10px;
+            }
+        }
+    }
+}
+
+.btn {
+    &.btn-red {
+        background: #f14e4f; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left, #f14e4f , #f16450); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #f14e4f, #f16450); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #f14e4f, #f16450); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #f14e4f , #f16450); /* Standard syntax */
+    }
 }

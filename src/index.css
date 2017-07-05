@@ -1,4 +1,128 @@
-body {
+h1, h2, h3, h4 {
+  font-weight: 300; }
+
+.gampre-play-wrapper {
+  height: 100vh;
+  overflow: hidden !important;
+  position: relative;
+  font-family: 'Lato', sans-serif; }
+
+.gampre-play-wrapper .top-bar {
+  width: 100%;
+  height: 70px;
+  background: #1a1d30;
+  position: relative; }
+
+.gampre-play-wrapper .top-bar .logo h1 {
+  text-indent: -9999px;
   margin: 0;
+  width: 150px;
+  height: 40px;
+  background: url("https://gampre.pl/assets/img/logo.svg") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  top: 17px;
+  left: 12px; }
+
+.gampre-play-wrapper .top-bar .user-info {
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-right: 50px;
+  color: #828da9; }
+
+.gampre-play-wrapper .top-bar .user-info .avatar {
+  display: inline-block; }
+
+.gampre-play-wrapper .top-bar .user-info .avatar img {
+  max-width: 30px;
+  border-radius: 50%; }
+
+.gampre-play-wrapper .top-bar .user-info .name {
+  display: inline-block;
+  margin-left: 15px;
+  color: #fff; }
+
+.gampre-play-wrapper .top-bar .user-info .name .premium {
+  color: #828da9;
+  font-size: 12px; }
+
+.gampre-play-wrapper .main {
+  height: calc(100vh - 80px);
+  overflow: hidden;
+  clear: both; }
+
+.gampre-play-wrapper .main .sidebar {
+  width: 15%;
+  max-width: 250px;
+  height: 100%;
+  float: left;
+  background: #1a1d30;
+  color: #828da9; }
+
+.gampre-play-wrapper .main .sidebar .btn {
+  width: 100%;
+  border-radius: 0;
+  color: #fff;
+  padding: 13px; }
+
+.gampre-play-wrapper .main .sidebar .btn a {
+  color: #fff; }
+
+.gampre-play-wrapper .main .sidebar .btn a:hover {
+  text-decoration: none; }
+
+.gampre-play-wrapper .main .sidebar h1 {
+  font-size: 10px;
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.gampre-play-wrapper .main .sidebar ul {
   padding: 0;
-  font-family: sans-serif; }
+  margin: 0; }
+
+.gampre-play-wrapper .main .sidebar ul li {
+  padding: 10px 25px;
+  color: #828da9;
+  list-style-type: none; }
+
+.gampre-play-wrapper .main .sidebar ul li a {
+  color: #828da9; }
+
+.gampre-play-wrapper .main .sidebar ul li a.active {
+  color: #fff; }
+
+.gampre-play-wrapper .main .sidebar ul li a:hover {
+  text-decoration: none;
+  color: #fff; }
+
+.gampre-play-wrapper .main .content {
+  width: 85%;
+  float: left;
+  background: #fff;
+  padding: 40px; }
+
+.gampre-play-wrapper .main .content h1 {
+  margin: 0;
+  display: inline-block; }
+
+.gampre-play-wrapper .main .content .btn {
+  color: #fff;
+  display: inline-block;
+  margin-left: 15px;
+  position: relative;
+  top: -10px; }
+
+.btn.btn-red {
+  background: #f14e4f;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #f14e4f, #f16450);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #f14e4f, #f16450);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #f14e4f, #f16450);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #f14e4f, #f16450);
+  /* Standard syntax */ }
